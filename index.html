@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Open+Sans+Condensed:300,300italic,700&amp;subset=latin,cyrillic,latin-ext,cyrillic-ext" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap 3.3.1 -->
+</head>
+
+<body>
+
+<header id="head">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        	<div class="head-block">
+        		<h1>Want a vacation, but don't have time for planning?</h1>
+        		<h3>Just write to me and I'l do it for you!</h3>
+        		<div class="cta-button"><a href="#contactmeForm" data-country="" data-city="">get your trip plan now</a></div>
+        	</div>
+        </div>
+      </div>
+    </div>
+</header>
+
+
+<div id="aboutme">
+	<div class="container">
+		<div class="row">
+            <div class="col-xs-12 col-md-4 col-md-offset-1">
+                <img src="https://pp.userapi.com/c403626/v403626982/244a/rbFTtWp8Cws.jpg" class="portrait" />
+            </div>
+            <div class="col-xs-12 col-md-6">
+	            <h3>Hi, I'm Liuda</h3>
+                <p>and I love planning. All my trips were prepared by me carefully and with love to detailes.</p>
+                <p>I started travelling 9 years ago with my first trip to Barcelona. By now I visited 16 countries and more than 56 cities.</p>
+                <p class="contactme"><a href="#contactmeForm" data-country="" data-city="">contact me for more details</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="examples">
+	<div class="container">
+    	<!-- list of regions to select -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <p class="region" id="america">North and South America</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <p class="region" id="europe">Europe</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <p class="region" id="asia">Asia</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <p class="region" id="africa">Africa</p>
+            </div>
+        </div>
+    
+    <!-- america's list -->
+    <div class="america list">
+		<div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="usa" data-toggle="modal" data-target="#myModal"  />
+                <p>USA trip (New York, Boston, Niagara Falls, Chicago, Miami, Orlando, Washington)<br />
+                <a class="request-trip" href="#contactmeForm" data-country="USA" data-city="New York, Boston, Niagara Falls, Chicago, Miami, Orlando, Washington">request this trip</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="mexico" data-toggle="modal" data-target="#myModal"  />
+                <p>Mexico, Ukatan<br />
+                <a class="request-trip" href="#contactmeForm" data-country="Mexico" data-city="Ukatan">request this trip</a></p>
+            </div>
+        </div>
+     </div>
+    
+    <!-- europe's list -->
+    <div class="europe list"> 
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="spain" data-toggle="modal" data-target="#myModal" />
+                <p><span class="spain">Spain (Barcelona, Sevilla, Valencia, Zaragoza, Madrid)</span><br />
+                <a class="request-trip" href="#contactmeForm" data-country="Spain" data-city="Barcelona, Sevilla, Valencia, Zaragoza, Madrid">request this trip</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="norway" data-toggle="modal" data-target="#myModal" />
+                <p><span class="norway">Norway (Oslo, Flam, Bergen, Stavanger, Fiords)</span><br />
+                <a class="request-trip" href="#contactmeForm" data-country="Norway" data-city="Oslo, Flam, Bergen, Stavanger, Fiords">request this trip</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="uk" data-toggle="modal" data-target="#myModal" />
+                <p><span class="uk">United Kingdom (London)</span><br />
+                <a class="request-trip" href="#contactmeForm" data-country="UK" data-city="London">request this trip</a></p>
+            </div>
+             <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="cz" data-toggle="modal" data-target="#myModal" />
+                <p><span class="cz">Czech republic (Prague, Kutna Hora)</span><br />
+                <a class="request-trip" href="#contactmeForm" data-country="Czech republic" data-city="Prague, Kutna Hora">request this trip</a></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="austria" data-toggle="modal" data-target="#myModal"  />
+                <p>Austria, Vienna<br />
+                <a class="request-trip" href="#contactmeForm" data-country="Austria" data-city="Vienna">request this trip</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="italy" data-toggle="modal" data-target="#myModal"  />
+                <p>Italy (Rome, Pompei, Rimini, Verona)<br />
+                <a class="request-trip" href="#contactmeForm" data-country="Italy" data-city="Rome, Pompei, Rimini, Verona">request this trip</a></p>
+            </div>
+        </div>
+
+      </div>
+     
+    <!-- asia's list -->
+    <div class="asia list">  
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="china" data-toggle="modal" data-target="#myModal"  />
+                <p>China (Beiging, Shanghai)<br />
+                <a class="request-trip" href="#contactmeForm" data-country="China" data-city="Beiging, Shanghai">request this trip</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="hongkong" data-toggle="modal" data-target="#myModal"  />
+                <p>Hong Kong<br />
+                <a class="request-trip" href="#contactmeForm" data-country="Hong Kong" data-city="Hong Kong">request this trip</a></p>
+            </div>
+        </div>
+     </div>
+     
+     <!-- africa's list -->
+    <div class="africa list">  
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/chicago-day-1.png" class="tour-preview" id="morocco" data-toggle="modal" data-target="#myModal"  />
+                <p>Morocco (Marakesh, Atlas mountains)<br />
+                <a class="request-trip" href="#contactmeForm" data-country="Morocco" data-city="Marakesh, Atlas mountains">request this trip</a></p>
+            </div>
+        </div>
+     </div>
+     
+     
+    </div>
+</div>
+
+
+<div id="contactmeForm">
+	<div class="container">
+		<div class="row">
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+            	<h4>Send your trip request and start preparing to your next journey</h4>
+                <form id="register">
+                	<div class="formRow">
+                    	<input type="text" name="full_name" placeholder="Full name" value="">
+                    </div>
+                    <div class="formRow">
+                    	<input type="text" name="email" placeholder="Contact email" value="">
+                    </div>
+                    <div class="formRow">
+                    	<input type="text" name="country" placeholder="What country do you plan to visit" value="">
+                    </div>
+                    <div class="formRow">
+                    	<input type="text" name="city" placeholder="What city(es) do you plan to visit" value="">
+                    </div>
+                    <div class="formRow">
+                   <input type="text" name="trip-date" placeholder="When do you plan your trip" value="">
+                   </div>
+                     <div class="formRow">
+                    <select name="trip_type">
+                        <option value="">Choose the type of attraction you like</option>
+                        <option value="sightseeing">Sightseeing</option>
+                        <option value="museums">Museums</option>
+                        <option value="music">Music</option>
+                        <option value="beach">Beach</option>
+                        <option value="sport">Sport</option>
+                        <option value="nature">Nature</option>
+                   </select>
+                   </div>
+                   <div class="formRow">
+                   <select name="duration">
+                        <option value="">Choose trip duration</option>
+                        <option value="weekend">Weekend</option>
+                        <option value="3days">3 days</option>
+                        <option value="week">Week (5-7 days)</option>
+                        <option value="2weeks">2 weeks (10-14 days)</option>
+                        <option value="3weeks">3 weeks and more</option>
+                   </select>
+                   </div>
+                   <div class="formRow">
+                   <select name="budget">
+                        <option value="">Choose your planning budget</option>
+                        <option value="$300-500">$300-500</option>
+                        <option value="$500-1000">$500-1000</option>
+                        <option value="$1000-1500">$1000-1500</option>
+                        <option value="$2000">more than $2000</option>
+                   </select>
+                   </div>
+                   <div class="formRow">
+                    	<textarea name="other" placeholder="Please specify you trip desires" rows="4" cols="50"></textarea>
+                    </div>
+                    <button class="btn" type="submit" name="SubmitBtn">Request your trip</button>
+                </form>
+                <div id="ty">
+                	<p>Thanks for request.<br />I'll contact you within 1 day</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://www.google.com/maps/embed/Seville,+Sevilla,+Spain/Valencia,+Spain/Barcelona,+Spain/Zaragoza,+Spain/Madrid,+Spain/" width="600" height="331" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
