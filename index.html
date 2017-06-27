@@ -23,7 +23,7 @@
         	<div class="head-block">
         		<h1>Want a vacation, but don't have time for planning?</h1>
         		<h3>Just write to me and I'l do it for you!</h3>
-        		<div class="cta-button"><a href="#contactmeForm" data-country="" data-city="">get your trip plan now</a></div>
+        		<div class="cta-button"><a href="#contactmeForm">get your trip plan now</a></div>
         	</div>
         </div>
       </div>
@@ -41,14 +41,77 @@
 	            <h3>Hi, I'm Liuda</h3>
                 <p>and I love planning. All my trips were prepared by me carefully and with love to detailes.</p>
                 <p>I started travelling 9 years ago with my first trip to Barcelona. By now I visited 16 countries and more than 56 cities.</p>
-                <p class="contactme"><a href="#contactmeForm" data-country="" data-city="">contact me for more details</a></p>
+                <!--<p class="contactme"><a href="#contactmeForm">contact me for more details</a></p>-->
             </div>
         </div>
     </div>
 </div>
 
+<div id="pricing">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-xs-12">
+            	<h3>Pricing</h3>
+            </div>
+        </div>
+        
+		<div class="row">
+            <div class="col-xs-12 col-md-4">
+            	<div class="price-block">
+                    <h4>Short vacations</h4>
+                    <p>A trip for 1-7 days</p>
+                    <h4 class="price">$25</h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+            	<div class="price-block">
+                    <h4>Standard vacations</h4>
+                    <p>A trip for 8-14 days</p>
+                    <h4 class="price">$50</h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+            	<div class="price-block">
+                    <h4>Long vacations</h4>
+                    <p>A trip longer than 14 days</p>
+                    <h4 class="price">$100</h4>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+        	<div class="col-xs-12 col-md-12">
+                <div class="description">
+                    <h3>What includes in this price?</h3>
+                    <ol>
+                    <li>List of 2-3 flights suitable for your budget and timing</li>
+                    <li>Several hotels/hostels with good rating ner the selected area</li>
+                    <li>What you need to avoid in this country and why</li>
+                    <li>Some places to eat/drink near you hotel/hostel</li>
+                    <li>Daily plan with:
+                        <ul>
+                            <li>How to get to city center from airport/railway station</li>
+                            <li>Where to go</li>
+                            <li>Pricing for all activities you plan to attend</li>
+                            <li>Google map with all places mentioned</li>                           
+                        </ul>
+                    </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
 <div id="examples">
 	<div class="container">
+        <div class="row">
+        	<div class="col-xs-12">
+            	<h3>Examples</h3>
+            </div>
+        </div>
+        
     	<!-- list of regions to select -->
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
@@ -70,12 +133,12 @@
 		<div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <img src="images/chicago-day-1.png" class="tour-preview" id="usa" data-toggle="modal" data-target="#myModal"  />
-                <p>USA trip (New York, Boston, Niagara Falls, Chicago, Miami, Orlando, Washington)<br />
+                <p><span class="usa">USA trip (New York, Boston, Niagara Falls, Chicago, Miami, Orlando, Washington)</span><br />
                 <a class="request-trip" href="#contactmeForm" data-country="USA" data-city="New York, Boston, Niagara Falls, Chicago, Miami, Orlando, Washington">request this trip</a></p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <img src="images/chicago-day-1.png" class="tour-preview" id="mexico" data-toggle="modal" data-target="#myModal"  />
-                <p>Mexico, Ukatan<br />
+                <p><span class="mexico">Mexico, Ukatan</span><br />
                 <a class="request-trip" href="#contactmeForm" data-country="Mexico" data-city="Ukatan">request this trip</a></p>
             </div>
         </div>
@@ -109,12 +172,12 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <img src="images/chicago-day-1.png" class="tour-preview" id="austria" data-toggle="modal" data-target="#myModal"  />
-                <p>Austria, Vienna<br />
+                <p><span class="austria">Austria, Vienna</span><br />
                 <a class="request-trip" href="#contactmeForm" data-country="Austria" data-city="Vienna">request this trip</a></p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <img src="images/chicago-day-1.png" class="tour-preview" id="italy" data-toggle="modal" data-target="#myModal"  />
-                <p>Italy (Rome, Pompei, Rimini, Verona)<br />
+                <p><span class="italy">Italy (Rome, Pompei, Rimini, Verona)</span><br />
                 <a class="request-trip" href="#contactmeForm" data-country="Italy" data-city="Rome, Pompei, Rimini, Verona">request this trip</a></p>
             </div>
         </div>
@@ -126,12 +189,12 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <img src="images/chicago-day-1.png" class="tour-preview" id="china" data-toggle="modal" data-target="#myModal"  />
-                <p>China (Beiging, Shanghai)<br />
+                <p><span class="china">China (Beiging, Shanghai)</span><br />
                 <a class="request-trip" href="#contactmeForm" data-country="China" data-city="Beiging, Shanghai">request this trip</a></p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <img src="images/chicago-day-1.png" class="tour-preview" id="hongkong" data-toggle="modal" data-target="#myModal"  />
-                <p>Hong Kong<br />
+                <p><span class="hongkong">Hong Kong</span><br />
                 <a class="request-trip" href="#contactmeForm" data-country="Hong Kong" data-city="Hong Kong">request this trip</a></p>
             </div>
         </div>
@@ -142,7 +205,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <img src="images/chicago-day-1.png" class="tour-preview" id="morocco" data-toggle="modal" data-target="#myModal"  />
-                <p>Morocco (Marakesh, Atlas mountains)<br />
+                <p><span class="morocco">Morocco (Marakesh, Atlas mountains)</span><br />
                 <a class="request-trip" href="#contactmeForm" data-country="Morocco" data-city="Marakesh, Atlas mountains">request this trip</a></p>
             </div>
         </div>
@@ -158,7 +221,7 @@
 		<div class="row">
             <div class="col-xs-12 col-md-8 col-md-offset-2">
             	<h4>Send your trip request and start preparing to your next journey</h4>
-                <form id="register">
+                <form id="register" action="mailto:liudmila.work@gmail.com&subject=Trip request" method="post" enctype="text/plain">
                 	<div class="formRow">
                     	<input type="text" name="full_name" placeholder="Full name" value="">
                     </div>
@@ -166,13 +229,16 @@
                     	<input type="text" name="email" placeholder="Contact email" value="">
                     </div>
                     <div class="formRow">
-                    	<input type="text" name="country" placeholder="What country do you plan to visit" value="">
+                    	<input type="text" name="from_country" placeholder="Country, city you plan to start your trip with" value="">
+                    </div>
+                    <div class="formRow">
+                    	<input type="text" name="to_country" placeholder="What country do you plan to visit" value="">
                     </div>
                     <div class="formRow">
                     	<input type="text" name="city" placeholder="What city(es) do you plan to visit" value="">
                     </div>
                     <div class="formRow">
-                   <input type="text" name="trip-date" placeholder="When do you plan your trip" value="">
+                   <input type="text" name="trip_date" placeholder="When do you plan your trip" value="">
                    </div>
                      <div class="formRow">
                     <select name="trip_type">
@@ -194,6 +260,7 @@
                         <option value="2weeks">2 weeks (10-14 days)</option>
                         <option value="3weeks">3 weeks and more</option>
                    </select>
+                   <p class="plan">Your vacation plan will cost <span></span></p>
                    </div>
                    <div class="formRow">
                    <select name="budget">
@@ -205,9 +272,12 @@
                    </select>
                    </div>
                    <div class="formRow">
-                    	<textarea name="other" placeholder="Please specify you trip desires" rows="4" cols="50"></textarea>
+                    	<textarea name="info" placeholder="Please specify you trip desires" rows="4" cols="50"></textarea>
                     </div>
-                    <button class="btn" type="submit" name="SubmitBtn">Request your trip</button>
+                    <div class="formRow">
+                    	<input name="price" type="hidden" value="">
+                    </div>
+                    <button class="btn" type="submit">Request your trip</button>
                 </form>
                 <div id="ty">
                 	<p>Thanks for request.<br />I'll contact you within 1 day</p>
@@ -228,7 +298,7 @@
         <h4 class="modal-title"></h4>
       </div>
       <div class="modal-body">
-        <iframe src="https://www.google.com/maps/embed/Seville,+Sevilla,+Spain/Valencia,+Spain/Barcelona,+Spain/Zaragoza,+Spain/Madrid,+Spain/" width="600" height="331" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101459.59291801362!2d-6.025097956099121!3d37.375350099090056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c1114be6291%3A0x34f018621cfe5648!2sSeville%2C+Sevilla%2C+Spain!5e0!3m2!1sen!2sru!4v1498561995384" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
