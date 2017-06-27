@@ -13,9 +13,37 @@ function openTripItem(){
 function fullfillForm() {
 	var country = $(this).data('country');
 	var city = $(this).data('city');
-	$('input[name=country]').text(country).val(country);
+	$('input[name=to_country]').text(country).val(country);
 	$('input[name=city]').text(city).val(city);
 };
+
+function addPricingNotes() {
+	$('.plan span').empty();
+	$('.plan').hide();
+	
+	var plan = $(this).val();
+	var cost = '';
+	
+	if (plan == '3weeks'){
+	 	cost = '$100';
+	} else if (plan == '2weeks'){
+	 	cost = '$50';
+	} else {
+		cost = '$25';
+	};
+	$('.plan').show();
+	$('.plan span').text(cost);
+	$('input[name=price]').val(cost);
+}
+
+/*
+function formSubmit(){
+	$('form').hide();
+	$('#ty').show();
+	
+};
+*/
+
 
 $(document).ready(function() {
 	
@@ -25,4 +53,11 @@ $(document).ready(function() {
 	
 	$('.request-trip').click(fullfillForm);
 	
+	$('select[name=duration]').change(addPricingNotes);
+	
+	//$('form').onsubmit(formSubmit);
+	
 });
+
+
+
