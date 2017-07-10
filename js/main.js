@@ -36,13 +36,21 @@ function addPricingNotes() {
 	$('input[name=price]').val(cost);
 }
 
-/*
+
 function formSubmit(){
-	$('form').hide();
-	$('#ty').show();
+	var frmvalidator  = new Validator("register");
+	frmvalidator.addValidation("full_name","req","Please enter your Full Name");
+	frmvalidator.addValidation("email","req","Please enter your email");
+	frmvalidator.addValidation("from_country","req","Please enter your country");
+	frmvalidator.addValidation("to_country","req","Please enter country you want to visit");
+	
+	frmvalidator.addValidation("trip_type","dontselect=no");
+	frmvalidator.addValidation("duration","dontselect=no");
+	frmvalidator.addValidation("budget","dontselect=no");
+
 	
 };
-*/
+
 
 
 $(document).ready(function() {
@@ -55,7 +63,7 @@ $(document).ready(function() {
 	
 	$('select[name=duration]').change(addPricingNotes);
 	
-	//$('form').onsubmit(formSubmit);
+	$('.btn').click(formSubmit);
 	
 });
 
