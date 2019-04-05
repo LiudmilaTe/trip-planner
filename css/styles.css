@@ -6,20 +6,20 @@ h1 {font-size: 40px; line-height: 50px; margin-top: 130px;}
 h3 {font-size: 30px; line-height: 40px;}
 h4 {font-size: 22px; line-height: 30px; margin: 40px 0 10px;}
 ul li {padding: 10px 0px;}
-a {color: #376580;}
-a:hover {color: #95B8CC;}
+a {color: #f00;}
+a:hover {color: #f00;}
 
 /* head styles */
-#head {background: #BAE6FF url(../images/golden-gate.jpeg) center top no-repeat; background-size: cover; min-height: 540px; margin: 0 auto; text-align:center;}
+#head {background: #BAE6FF url(../images/golden-gate.jpeg) center top no-repeat; background-size: cover; min-height: 540px; margin: 0 auto; color: #ffffff; text-align:center;}
 /*#head, #head h1, #head h3, .cta-button, .cta-button a {}*/
-.cta-button, .btn {background-color: #6ECAFF; color: #ffffff; padding: 10px 20px; max-width: 250px; margin: 70px auto 30px; text-transform: uppercase; border-radius: 25px;}
+.cta-button a, .btn {background-color: #6ECAFF; color: #ffffff; padding: 10px 20px; max-width: 250px; margin: 70px auto 30px; text-transform: uppercase; border-radius: 25px;}
 
 /* blocks common styles */
 #aboutme, #guide, #examples, #contactmeForm {margin: 40px 0; padding: 30px 0; background: #ffffff;}
 #guide, #contactmeForm {background: #BAE6FF;}
 #examples {text-align:center;}
 
-/* aboutme styles */
+/* about me styles */
 .portrait {max-width: 300px;}
 .contactme {font-size: 14px;}
 
@@ -35,14 +35,14 @@ img.tour-preview {max-width:250px; padding: 10px; cursor: pointer;}
 
 
 /* form block */
-#contactmeForm {text-align:center;}
+/*#contactmeForm {text-align:center;}
 form {margin: 30px auto; width: 100%; max-width: 350px;}
 .formRow {margin-bottom: 16px; font-size: 14px;}
 input, select, textarea {border: 1px solid #5D7380;	padding: 8px 10px; width: 100%; color: #BAE6FF;}
 input, select {height: 40px;}
 .plan {font-size: 14px; margin-top:10px; display:none;}
 .plan span {color: #6ECAFF;}
-#ty {display:none;}
+#ty {display:none;}*/
 
 @media (max-width: 782px) {
 	h1 {margin-top: 80px;}
