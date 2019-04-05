@@ -1,162 +1,50 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {font-family: "Open Sans", sans-serif;font-weight: 400;font-size: 16px;}
-
+body {font-family: "Open Sans", sans-serif;font-weight: 400;font-size: 16px; color: #376580;}
 h1 {font-size: 40px; line-height: 50px; margin-top: 130px;}
-
-@media (max-width: 782px) {
-	h1 {margin-top: 80px;}
-}
-
 h3 {font-size: 30px; line-height: 40px;}
-h4 {font-size: 25px; line-height: 30px;}
+h4 {font-size: 22px; line-height: 30px; margin: 40px 0 10px;}
+ul li {padding: 10px 0px;}
+a {color: #6ECAFF;}
+a:hover {color: #95B8CC;}
 
 /* head styles */
-#head {background: #dedede url(../images/golden-gate.jpeg) center top no-repeat; background-size: cover; min-height: 540px; margin: 0 auto;}
-
-#head,
-#head h1, 
-#head h3, 
-.cta-button, 
-.cta-button a {
-	text-align:center;
-	color:#ffffff;
-}
-
-.cta-button {
-	background-color: #F00;
-	padding: 10px 20px;
-	max-width: 250px;
-	margin: 70px auto 30px;
-	text-transform: uppercase;
-	border-radius: 25px;
-}
+#head {background: #BAE6FF url(../images/golden-gate.jpeg) center top no-repeat; background-size: cover; min-height: 540px; margin: 0 auto; text-align:center;}
+/*#head, #head h1, #head h3, .cta-button, .cta-button a {}*/
+.cta-button, .btn {background-color: #376580; color:#ffffff; padding: 10px 20px; max-width: 250px; margin: 70px auto 30px; text-transform: uppercase; border-radius: 25px;}
 
 /* blocks common styles */
-#aboutme,
-#guide,
-#examples,
-#contactmeForm {
-	margin: 40px 0;	
-	padding: 30px 0;
-	color: #003;
-	background: #ffffff;
-}
-
-#guide,
-#contactmeForm {
-	background: #fefefe;
-}
+#aboutme, #guide, #examples, #contactmeForm {margin: 40px 0; padding: 30px 0; background: #ffffff;}
+#guide, #contactmeForm {background: #BAE6FF;}
 #examples {text-align:center;}
 
-
 /* aboutme styles */
-
 .portrait {max-width: 300px;}
 .contactme {font-size: 14px;}
 
-/* guide styles */
-
-ul li {padding: 10px 0px;}
-
 /* examples styles */
-#examples h3 {
-	margin-bottom: 25px;	
-}
-
-
-.region {
-	text-transform:uppercase;
-	font-size: 18px;
-	color: #09F;
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-@media (max-width: 782px) {
-	.region {
-		padding: 20px;
-	}
-}
-
-img.tour-preview {
-	max-width:250px;
-	padding: 10px;
-	cursor: pointer;	
-}
-
-.request-trip, .request-trip:hover {
-	color: #F00;
-	text-decoration: underline;
-	margin-top:20px;
-}
-
-.request-trip:hover, .request-trip:active{
-	color: #C03;
-}
-
-.europe,
-.asia,
-.africa {
-	display:none;	
-}
-
-.list,
-.list p {
-	padding: 20px 0;
-}
-
-.list p {
-	min-height: 90px;
-}
-
+#examples h3 {margin-bottom: 25px;}
+.region {text-transform: uppercase; font-size: 18px; color: #6ECAFF; text-decoration: underline; cursor: pointer;}
+img.tour-preview {max-width:250px; padding: 10px; cursor: pointer;}
+.request-trip, .request-trip:hover { color: #95B8CC; text-decoration: underline; margin-top:20px;}
+.request-trip:hover, .request-trip:active{color: #95B8CC;}
+.europe,.asia,.africa {display:none;}
+.list, .list p {padding: 20px 0;}
+.list p {min-height: 90px;}
 
 
 /* form block */
+#contactmeForm {text-align:center;}
+form {margin: 30px auto; width: 100%; max-width: 350px;}
+.formRow {margin-bottom: 16px; font-size: 14px;}
+input, select, textarea {border: 1px solid #5D7380;	padding: 8px 10px; width: 100%; color: #BAE6FF;}
+input, select {height: 40px;}
+.plan {font-size: 14px; margin-top:10px; display:none;}
+.plan span {color: #6ECAFF;}
+#ty {display:none;}
 
-#contactmeForm {
-	text-align:center;
-}
-
-form {
-	margin: 30px auto;
-	width: 100%;
-	max-width: 350px;
-}
-
-.formRow {
-	margin-bottom: 16px;
-	font-size: 14px;
-}
-
-input, select, textarea {
-	border: 1px solid #dedede;	
-	padding: 8px 10px;
-    width: 100%;
-	color: #6d6d6d;
-}
-input, select {
-	height: 40px;	
-}
-
-.plan {
-	font-size: 14px;
-	margin-top:10px;
-	display:none;	
-}
-.plan span {
-	color: #F00;	
-}
-
-.btn {
-	width: 100%;
-	background: #F00;
-	color:#ffffff;
-	height: 40px;
-	border-radius: 0;
-}
-
-#ty {
-	display:none;
+@media (max-width: 782px) {
+	h1 {margin-top: 80px;}
+	.region {padding: 20px;}
 }
