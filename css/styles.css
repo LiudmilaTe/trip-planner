@@ -13,11 +13,12 @@ a:hover {color: #f00;}
 #head {background: #BAE6FF url(../images/golden-gate.jpeg) center top no-repeat; background-size: cover; min-height: 540px; margin: 0 auto; color: #ffffff; text-align:center;}
 /*#head, #head h1, #head h3, .cta-button, .cta-button a {}*/
 .cta-button, .btn {background-color: #6ECAFF; color: #ffffff; padding: 10px 20px; max-width: 250px; margin: 70px auto 30px; text-transform: uppercase; border-radius: 25px;}
-..cta-button a {color:#ffffff;}
+.cta-button a {color:#ffffff;}
 
 /* blocks common styles */
-#aboutme, #guide, #examples, #contactmeForm {margin: 40px 0; padding: 30px 0; background: #ffffff;}
+#aboutme, #guide, #examples, #contactmeForm,  #footer{margin: 40px 0; padding: 30px 0; background: #ffffff;}
 #guide, #contactmeForm {background: #BAE6FF;}
+#footer {background: #BAE6FF;}
 #examples {text-align:center;}
 
 /* about me styles */
@@ -28,7 +29,7 @@ a:hover {color: #f00;}
 #examples h3 {margin-bottom: 25px;}
 .region {text-transform: uppercase; font-size: 18px; color: #6ECAFF; text-decoration: underline; cursor: pointer;}
 img.tour-preview {max-width:250px; padding: 10px; cursor: pointer;}
-.request-trip, .request-trip:hover { color: #95B8CC; text-decoration: underline; margin-top:20px;}
+.request-trip, .request-trip:hover {color: #95B8CC; text-decoration: underline; margin-top:20px;}
 .request-trip:hover, .request-trip:active{color: #95B8CC;}
 .europe,.asia,.africa {display:none;}
 .list, .list p {padding: 20px 0;}
