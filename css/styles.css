@@ -31,7 +31,7 @@ h4 {
 
 /* head styles */
 #head {
-	background: #dedede url(images/golden-gate.jpeg) left top no-repeat;
+	background: #dedede url(../images/golden-gate.jpeg) center top no-repeat;
 	background-size: cover;
 	min-height: 540px;
 	margin: 0 auto;
@@ -52,6 +52,7 @@ h4 {
 	max-width: 250px;
 	margin: 70px auto 30px;
 	text-transform: uppercase;
+	border-radius: 25px;
 }
 
 /* blocks common styles */
