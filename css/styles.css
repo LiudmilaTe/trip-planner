@@ -1,18 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {font-family: "Open Sans", sans-serif;font-weight: 400;font-size: 16px; color: #376580;}
+body {font-family: "Open Sans", sans-serif;font-weight: 400;font-size: 16px; color: #000000;}
 h1 {font-size: 40px; line-height: 50px; margin-top: 130px;}
 h3 {font-size: 30px; line-height: 40px;}
 h4 {font-size: 22px; line-height: 30px; margin: 40px 0 10px;}
 ul li {padding: 10px 0px;}
-a {color: #6ECAFF;}
+a {color: #376580;}
 a:hover {color: #95B8CC;}
 
 /* head styles */
 #head {background: #BAE6FF url(../images/golden-gate.jpeg) center top no-repeat; background-size: cover; min-height: 540px; margin: 0 auto; text-align:center;}
 /*#head, #head h1, #head h3, .cta-button, .cta-button a {}*/
-.cta-button, .btn {background-color: #376580; color:#ffffff; padding: 10px 20px; max-width: 250px; margin: 70px auto 30px; text-transform: uppercase; border-radius: 25px;}
+.cta-button, .btn {background-color: #6ECAFF; color: #ffffff; padding: 10px 20px; max-width: 250px; margin: 70px auto 30px; text-transform: uppercase; border-radius: 25px;}
 
 /* blocks common styles */
 #aboutme, #guide, #examples, #contactmeForm {margin: 40px 0; padding: 30px 0; background: #ffffff;}
