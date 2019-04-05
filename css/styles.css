@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	font-family: Open Sans, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 }
@@ -31,7 +31,7 @@ h4 {
 
 /* head styles */
 #head {
-	background: #dedede url(/images/golden-gate.jpeg) left top no-repeat;
+	background: #dedede url(images/golden-gate.jpeg) left top no-repeat;
 	background-size: cover;
 	min-height: 540px;
 	margin: 0 auto;
