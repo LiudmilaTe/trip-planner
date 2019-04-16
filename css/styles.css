@@ -6,13 +6,13 @@ h1 {font-size: 44px; line-height: 54px; margin-top: 130px;}
 h3 {font-size: 30px; line-height: 40px;}
 h4 {font-size: 22px; line-height: 30px; margin: 40px 0 10px;}
 ul li {padding: 10px 0px;}
-a {color: #AF6665;}
+a {color: #C15B66;}
 a:hover {color: #AF6665;}
 
 /* head styles */
 #head {background: #BAE6FF url(../images/golden-gate.jpeg) center top no-repeat; background-size: cover; min-height: 540px; margin: 0 auto; color: #ffffff; text-align:center;}
 /*#head, #head h1, #head h3, .cta-button, .cta-button a {}*/
-.cta-button, .btn {background-color: #AF6665; color: #ffffff; padding: 10px 20px; max-width: 250px; margin: 70px auto 30px; text-transform: uppercase; border-radius: 25px;}
+.cta-button, .btn {background-color: #C15B66; color: #ffffff; padding: 10px 20px; max-width: 250px; margin: 70px auto 30px; text-transform: uppercase; border-radius: 25px;}
 .cta-button a {color:#ffffff;text-decoration:none;}
 
 /* blocks common styles */
