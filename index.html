@@ -374,12 +374,22 @@
   </div>
 </div>
 
-<script>    
-    function showTripList() {
+<script> 
+function showTripList() {
 	var region = $(this).attr("id");
 	$(".list").hide();
 	$("."+region).show();
 };
+function openTripItem(){
+	var cities = $(this).attr('id');
+	$('h4.modal-title').empty();
+	$('.'+cities).clone().appendTo('h4.modal-title');
+};
+	
+$(document).ready(function() {
+	$(".region").click(showTripList);
+	$(".tour-preview").click(openTripItem);
+});
 </script>
     
 <script type="text/javascript" async="async" src="js/jquery.min.js"></script>
