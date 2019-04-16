@@ -374,10 +374,18 @@
   </div>
 </div>
 
+<script>    
+    function showTripList() {
+	var region = $(this).attr("id");
+	$(".list").hide();
+	$("."+region).show();
+};
+</script>
+    
 <script type="text/javascript" async="async" src="js/jquery.min.js"></script>
 <script type="text/javascript" async="async" src="js/bootstrap.min.js"></script><!-- Bootstrap 3.3.1 -->
-<script type="text/javascript" async="async" src="js/main.js"></script>
-<script type="text/javascript" async="async" src="js/form/gen_validatorv4.js"></script> <!-- form validation -->
+<!-- <script type="text/javascript" async="async" src="js/main.js"></script> -->
+<!-- <script type="text/javascript" async="async" src="js/form/gen_validatorv4.js"></script> -->
     
 </body>
 </html>
