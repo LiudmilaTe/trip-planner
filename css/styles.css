@@ -16,9 +16,9 @@ a:hover {color: #f00;}
 .cta-button a {color:#ffffff;}
 
 /* blocks common styles */
-#aboutme, #guide, #examples, #contactmeForm,  #footer{margin: 40px 0; padding: 30px 0; background: #ffffff;}
-#guide, #contactmeForm {background: #BAE6FF;}
-#footer {background: #BAE6FF;}
+#aboutme, #guide, #examples, #contactmeForm, #footer {margin: 40px 0; padding: 30px 0; background: #ffffff;}
+/* #guide, #contactmeForm {background: #BAE6FF;} */
+#footer {background: #BAE6FF; margin-bottom:0;}
 #examples {text-align:center;}
 
 /* about me styles */
