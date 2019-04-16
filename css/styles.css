@@ -32,7 +32,7 @@ a:hover {color: #AF6665;}
 #examples h3 {margin-bottom: 25px;}
 .region {text-transform: uppercase; padding: 20px 10px; border-radius: 17px; background-color: #6ECAFF; cursor: pointer;}
 .region:hover {text-decoration: underline;}
-img.tour-preview {max-width:250px; padding: 10px 0; cursor: pointer;}
+img.tour-preview {max-width:210px; padding: 10px 0; cursor: pointer;}
 .request-trip, .request-trip:hover {text-decoration: underline; margin-top:20px;}
 .europe, .asia, .africa {display:none;}
 .list, .list p {padding: 20px 0;}
